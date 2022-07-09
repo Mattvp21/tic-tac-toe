@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2684a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+#game-board {
+    height: 400px;
+    width: 400px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#game-square {
+    display: flex;
+}
+
+.game-square-0 {
+    height: 33.32%;
+    width: 33.32%;
+    
+    border: solid .75rem black;
+    border-top: none;
+    border-left: none;
+}
+
+.game-square-1 {
+    height: 33.32%;
+    width: 33.32%;
+    
+    border: solid .75rem black;
+    border-top: none;
+}
+.game-square-2 {
+    height: 33.32%;
+    width: 33.32%;
+    
+    border: solid .75rem black;
+    border-top: none;
+    border-right: none;
+    
+}
+
+.game-square-3 {
+    height: 33.32%;
+    width: 33.32%;
+    
+    border: solid .75rem black;
+    border-left: none;
+}
+
+.game-square-4 {
+    height: 33.32%;
+    width: 33.32%;
+    
+    border: solid .75rem black;
+}
+
+.game-square-5 {
+    height: 33.32%;
+    width: 33.32%;
+    
+    border: solid .75rem black;
+    border-right: none;
+}
+
+.game-square-6 {
+    height: 33.32%;
+    width: 33.32%;
+   
+    border: solid .75rem black;
+    border-left: none;
+    border-bottom: none;
+}
+
+.game-square-7 {
+    height: 33.32%;
+    width: 33.32%;
+   
+    border: solid .75rem black;
+    border-bottom: none;
+}
+
+.game-square-8{
+    height: 33.32%;
+    width: 33.32%;
+    border: solid .75rem black;
+    border-right: none;
+    border-bottom: none;
+}
+
+#square-button{
+    display: flex;
+    width: 100%;
+    font-size: 6rem;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: #6fc44b;
+    padding:  1rem;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #6fc44b;
+    opacity: .5;
+}
+
+.clear-button {
+    background-color: #6fc44b;
+    padding:  1rem;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background-color: #6fc44b;
+    opacity: .5;
+}
